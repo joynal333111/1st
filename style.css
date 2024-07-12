@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+    background:linear-gradient(90deg,#03228f 10%,#0e73e4 100% 100%)
+}
+.main-menu{
+    background: white;
+    filter:drop-shadow(3px 8px 10px rgba(0,0,0,0.2));   /* 0.3 means opacity */
+}
+.main-menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+}
+.main-menu ul li{
+    float:left;
+    position:relative;
+
+
+}
+.main-menu ul li a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600; 
+}
+#hme{
+    /* font-size:200px; */
+    color: #0b70e1;
+}
+.main-menu ul ul li{
+    float:none;
+
+}
+.main-menu ul ul{
+    position:absolute;
+    top:100%;
+    left:0%;
+    background: blue;
+    width: 280px;
+    display: none;
+    
+
+}
+.h:hover>ul{
+    display:block;
+    background: white;
+    padding: 30px 0px 20px 10px;
+    border-radius: 10px;
+    
+    
+}
+.h:hover>ul li a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    
+    
+}
+
+
+.main-menu li:hover{
+    /* background:chocolate; */
+    /* width:100px;
+    height:100px; */
+    /* cursor:pointer; */
+    border-radius:50%;
+    border:2px solid chocolate;
+    /* box-sizing: border-box; */
+    /* color:white; */
+    
+    
+}
+.main-menu img{
+    width:164.8px;
+    height:60px;
+    padding:none;
+    margin-right:225px;
+    float:left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left:140px;
+    vertical-align:middle;
+    
+}
+
+.header{
+    width:100%;
+    height: 52.533px;
+    background: linear-gradient(90deg,#03228f 10%,#0e73e4 100%);
+    margin:0;
+
+
+}
+.lower-header{
+    width: auto;
+    height:60px;
+    background:white;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    vertical-align:middle;
+    
+
+  
+}
+.si img{
+    width:20px;
+    height:20.2px;
+    margin:0;
+}
+.bg{
+    color: #03228f;
+    width: auto;
+    height: 500px;
+}
+#qt a{
+    background-image: linear-gradient(90deg,#03228f 0,#0e73e4 100%);
+    font-size: 14px;
+    color:white;
+    font-weight:500px;
+    border-radius:3px;
+    padding:13px 22px;
+
+}
+.mi img{
+    
+    width:16px;
+    height:17px;
+    
+}
+
+.fb img{
+    
+    width:16px;
+    height:15px;
+}
+.tw img{
+    
+    width:16px;
+    height:15px;
+}
+.link img{
+    
+    width:16px;
+    height:15px;
+}
+.yt img{
+    
+    width:16px;
+    height:15px;
+}
+.call img{
+    
+    width:16px;
+    height:15px;
+    padding-top: 5px;
+}
+.a{
+    margin:0;
+    padding-left:135px;
+    list-style: none;
+
+}
+.b{
+    margin:0;
+    padding-left:100px;
+    list-style: none;
+    
+}
+.c{
+    margin:0;
+    padding:0;
+    list-style: none;
+    float:right;
+    margin-right: 160px;
+    margin-top: 5px;
+    
+}
+.a li{
+    float:left;
+    position:relative;
+}
+.header a{
+    color:white;
+    font: 14px;
+    /* margin-left: 30px; */
+    text-decoration:none;
+
+}
+.a li{
+    
+    color: white;
+    /* margin-top: 50%; */
+    
+}
+.b li{
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    /* padding-top: 5px; */
+
+}
+.c li{
+    float: left;
+    position: relative;
+    padding-top: 10;
+    /* margin: -7px; */
+    padding-left: 12px;
+}
+.header li{
+    margin-top:13px;
+}
+.a li{
+    padding-right: 8px;
+    /* margin-left: 30px; */
+}
+#t{
+    color: #0b70e1;
+    font-weight: bolder;
+    padding-left: 15px;
+    line-height: 20px;
+    padding-right: 20px;
+    
+}
+.b{
+    padding-left: 100px;
+}
+.main-menu li a:hover{
+    color:blue;
+}
+.m-bg img{
+    width:1900px;
+    float:right;
+    overflow: hidden;
+    
+    
+}
+.header a:hover{
+    font:livvic;
+   transition:0.3s;
+   filter: opacity(80%);
+}
+.txt-ov{
+    position:absolute;
+    color: white;
+    margin-top: 190px;
+    font-family: "Livvic", sans-serif;
+    margin-left: 140px;
+    
+}
+.txt-ov span{
+    font-size: 14px;
+    font-weight: 400;
+    /* padding-top: 50px; */
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom: -5px;
+    padding: 0px;
+
+}
+.txt-ov h1{
+    font-size: 60px;
+    font-weight: 700;
+    /* position: relative; */
+    line-height:1.1em ;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.txt-ov p{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.button a {
+    background: white;
+  color: #032491;
+  font-size: 16px;
+  font-weight: 500;
+  padding:20px 30px 20px 30px;
+  box-sizing: border-box;
+    border-radius: 5px;
+    /* width: 100%; */
+    text-decoration: none;
+    
+
+}
+/* :root{
+    --font-color:black;
+    --font-size:200px;
+} */
+ @import url(external.css);
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
